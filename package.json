@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "naughtLdy <naughtLdy@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "component": "ts-node lib"
+  },
   "dependencies": {
     "cac": "^6.5.8",
     "inquirer": "^7.1.0",

@@ -2,10 +2,16 @@
 
 automatic generation of files related to component
 
+## setup
+
+```bash
+npm ci
+```
+
 ## Useage
 
 ```bash
-npx node-ts lib
+npm run component
 
 # check generate files
 ls -al src/components
