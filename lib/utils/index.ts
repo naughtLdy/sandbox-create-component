@@ -61,14 +61,6 @@ export default async (): Promise<void> => {
 
   // copy files
   fs.mkdirSync(componentFileDir, { recursive: true });
-  // fs.copyFile(
-  //   `${templateDir}/components/index.vue`,
-  //   `${componentFileDir}/index.vue`,
-  //   (err) => {
-  //     if (err) throw err;
-  //     console.log(`create file ${componentFileDir}/index.vue`);
-  //   },
-  // );
   fs.readFile(`${templateDir}/components/index.vue`, 'utf8', (err, data) => {
     if (err) {
       return console.log(err);
